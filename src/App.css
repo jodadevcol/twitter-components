@@ -1,0 +1,18 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tw-followersBox {
+  width: fit-content;
+  min-width: 300px;
+  max-width: calc(350px + (16px * 2));
+  margin-inline: auto;
+  border: 1px solid var(--col-black-muted);
+  border-radius: 16px;
+  background-color: var(--col-black-muted);
+  overflow: hidden;
+}

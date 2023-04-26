@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Twitter Chirp';
+  font-weight: 900;
+  font-style: normal;
+  src: url("./assets/fonts/Chirp-Bold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Twitter Chirp';
+  font-weight: 800;
+  font-style: normal;
+  src: url("./assets/fonts/Chirp-Heavy.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Twitter Chirp';
+  font-weight: 600;
+  font-style: normal;
+  src: url("./assets/fonts/Chirp-Medium.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Twitter Chirp';
+  font-weight: 400;
+  font-style: normal;
+  src: url("./assets/fonts/Chirp-Regular.woff2") format('woff2');
+}
+
+:root {
+  /* colors */
+  --col-text: #0f1419;
+  --col-white: #f2f2f2;
+  --col-black-muted: #16181c;
+  --col-gray: #e7e9ea;
+  --col-gray-muted: #71767b;
+  --col-blue: #1d9bf0;
+
+  /* font family */
+  --ft-primary: 'Twitter Chirp', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-family: var(--ft-primary);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(0, 0, 0);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--ft-primary);
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  position: relative;
+  min-width: 32px;
+  min-height: 32px;
+  margin: 0;
+  padding-block: 0rem;
+  padding-inline: 1.6rem;
+  font-family: var(--ft-primary);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--col-text);
+  outline: none;
+  border: 1px solid transparent;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  background-color: #fff;
+  cursor: pointer;
+  will-change: auto;
+  transition: background-color 200ms;
+}
