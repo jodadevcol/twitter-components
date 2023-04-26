@@ -1,0 +1,22 @@
+.tw-showMore {
+  display: block;
+  padding-block: 1.6rem;
+  padding-inline: 1.6rem;
+  text-decoration: none;
+  color: var(--col-blue);
+  cursor: pointer;
+  will-change: auto;
+  transition: background-color 200ms;
+}
+
+.tw-showMore:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.tw-showMore-label {
+  display: block;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 20px;
+  word-wrap: break-word;
+}
